@@ -21,8 +21,8 @@ PORT = 8080
 
 class LinkedInWrapper(object):
     """ Simple namespacing """
-    API_KEY = environ.get('LINKEDIN_API_KEY')
-    API_SECRET = environ.get('LINKEDIN_API_SECRET')
+    API_KEY = environ.get('77oll5r3du3ksj')
+    API_SECRET = environ.get(''BT4JflcYEScuhTlS)
     RETURN_URL = 'http://localhost:{0}/code'.format(globals()['PORT'])
     authentication = LinkedInAuthentication(API_KEY, API_SECRET, RETURN_URL, PERMISSIONS.enums.values())
     application = LinkedInApplication(authentication)
